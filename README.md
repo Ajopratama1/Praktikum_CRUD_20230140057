@@ -2,9 +2,11 @@ TAMPILAN WEB
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/36b39dfb-a226-4954-b45c-c0a177d84ff6" />
 
 GET
+
 Get All User - Path '/api/users'
 
 Response
+
 {
     "data": [
         {
@@ -21,6 +23,7 @@ Response
     "status": "success"
 }
 
+
 Get User by Id - Path '/api/users/{id}'
 
 
@@ -33,10 +36,13 @@ Get User by Id - Path '/api/users/{id}'
     "status": "success"
 }
 
+
 POST
+
 Path '/api/user'
 
 Response
+
 {
     "data": {
         "age": 22,
@@ -47,9 +53,11 @@ Response
 }
 
 PUT
+
 Path '/api/users/{id}'
 
 Response
+
 {
     "data": {
         "age": 22,
@@ -60,9 +68,11 @@ Response
 }
 
 DELETE
+
 Path '/api/users/{id}'
 
 Response
+
 {
     "status": "success delete user with id ee4f6dff-f9e3-4258-b941-20420e716f46"
 }
